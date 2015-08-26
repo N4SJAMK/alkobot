@@ -31,7 +31,7 @@ function postSlackMessage(content) {
 /**
  *
  */
-scheduleJob({ hour: 9, minute: 14 }, () => {
+scheduleJob({ hour: 14, minute: 0 }, () => {
 	switch(new Date().getDay()) {
 		case MONDAY:
 		case TUESDAY:
